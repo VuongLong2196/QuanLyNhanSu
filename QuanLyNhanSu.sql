@@ -30,3 +30,5 @@ alter table PhongBan add primary key(maPB)
 
 alter table NhanVien1
 add constraint M foreign key(maPB) references PhongBan(maPB)
+
+
