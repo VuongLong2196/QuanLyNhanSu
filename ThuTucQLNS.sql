@@ -39,7 +39,7 @@ else
 insert into PhongBan values(@mapb,@tenpb,@sdt,@email)
 end
 
-drop proc them_PB
+
 ----------------------
 create proc sua_PB(
      @mapb char(10),
@@ -56,7 +56,6 @@ set tenPB=@tenpb,
 where maPB=@mapb
 end
 
-drop proc sua_PB
 ----------------------
 create proc xoa_PB(@mapb char(10))
 as
@@ -67,7 +66,6 @@ delete PhongBan
 where maPB=@mapb
 end
 
-drop proc xoa_PB
 ----------------------
 create proc xuat_PB
 as
