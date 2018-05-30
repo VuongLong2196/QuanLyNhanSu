@@ -9,7 +9,7 @@ pass char(15) not null
 create table PhongBan(
 	maPB char(10) NOT NULL,
 	tenPB nvarchar(30) NOT NULL,
-	SDT char(10) NULL,
+	SDT int,
 	Email char(30) NULL,
 	
 )
